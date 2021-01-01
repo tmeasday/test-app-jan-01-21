@@ -10,14 +10,12 @@ export default {
   },
 };
 
-const Template = (args) => {
-  throw new Error('foo');
-};
+const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Button 2',
 };
 
 export const Secondary = Template.bind({});
