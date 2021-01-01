@@ -10,9 +10,7 @@ export default {
   },
 };
 
-const Template = (args) => {
-  throw new Error('foo');
-};
+const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
